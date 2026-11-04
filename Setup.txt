@@ -1,0 +1,9 @@
+### Activity 1 – Dev Environment Setup
+
+1. Installed Visual Studio Code and the Microsoft C/C++ extension.
+2. Installed MinGW-w64 using the MSYS2 distribution.
+3. Initially, GCC was not recognized because its installation folder was not added to the Windows PATH variable.
+4. Resolved the issue by adding `C:\msys64\ucrt64\bin` to PATH and reopening the terminal.
+5. Verified the installation using `gcc --version` and `g++ --version`.
+6. Created and compiled `hello.c` using GCC and successfully executed the program.
+7. Captured a screenshot of the successful compilation and Hello, World! output for my engineering portfolio.

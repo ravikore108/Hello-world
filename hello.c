@@ -2,5 +2,9 @@
 
 int main() {
     printf("Hello, World!\n");
-    return 0;
+    void greet(const char *name) {
+    printf("Hello, %s! Welcome to your GitHub portfolio.\n", name);
+}
+    greet("Alice");
+    return 0; 
 }
